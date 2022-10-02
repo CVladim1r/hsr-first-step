@@ -1,0 +1,38 @@
+body {
+    background-color: #131313;
+    color: red;
+}
+
+h1 {
+    color: blue;
+}
+
+p {
+
+    line-height: 1.25;
+    margin-bottom: 1em;
+}
+
+.first {
+    color: navy;
+    font-weight: bold;
+    border-left: 5px solid beige;
+}
+
+.entry-wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.entry {
+    width: 600px;
+}
+
+img {
+    width: 480px;
+}
